@@ -1,4 +1,4 @@
-﻿#My Boilerplate for C\# sharp
+﻿My Boilerplate for C\# 
 
 This is a C# boilerplate so I can look at it when I need a quick refresher.  If you want to use it, that's fine by me, no accreditation necessary except, you know, ***I INVENTED IT*** and that's all.  :)
 
