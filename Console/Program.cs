@@ -62,8 +62,15 @@ namespace ConsoleProgram
             int? foo = null; // Using the question mark makes it into a nullable field.
             // Console.WriteLine(sb.ToString()); /*This is invalid if you write out a null object to*/
             Person person = new Person("John", "Doe");
+            Person john = new Person("John", "Smith");
+            Person jane = new Person("Jane", "Doe");
 
-            Console.WriteLine(person.SayHello("Ryan"));
+            Console.WriteLine(jane.FirstName + " " + jane.LastName + " is going to marry " + john.FirstName + " " + john.LastName);
+
+        //    Console.WriteLine(person.SayHello("Ryan"));
+            Console.WriteLine(person.FirstName + " " + person.LastName);
+            string greeting = john.SayHello(jane);
+            Console.WriteLine(greeting);
 
         }
     }
