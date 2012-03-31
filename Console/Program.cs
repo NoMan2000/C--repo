@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ConsoleProgram;
+using ConsoleProject;
+using ConsoleProject.MyFirstDataTypes;
 
 namespace ConsoleProgram
 {
@@ -58,9 +61,9 @@ namespace ConsoleProgram
             // sb = null;
             int? foo = null; // Using the question mark makes it into a nullable field.
             // Console.WriteLine(sb.ToString()); /*This is invalid if you write out a null object to*/
+            Person person = new Person("John", "Doe");
 
-
-
+            Console.WriteLine(person.SayHello("Ryan"));
 
         }
     }
